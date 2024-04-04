@@ -1,0 +1,13 @@
+@Metadata.layer: #CORE
+annotate view Z_B_CUSTOMER
+    with 
+{
+    @UI.lineItem: [ { position: 10, importance: #HIGH } ]
+    Nombre;
+    @UI.lineItem: [ { position: 20, importance: #HIGH } ]
+    Apellido;
+    @UI.lineItem: [ { position: 30, importance: #HIGH, label: 'Correo electrónico' } ]
+    Correo;
+    @UI.lineItem: [ { position:10, importance: #HIGH, label: 'Tipo de contrato'} ]
+    TipoContrato;
+}
